@@ -20,9 +20,6 @@ body {
 
 #main-navbar ul li {
 	display: inline-block;
-	float: left;
-	position: relative;
-	right: 50%;
 }
 
 #main-navbar ul li a {
@@ -30,6 +27,8 @@ body {
 	padding: 10px 20px;
 	color: #fff;
 	text-decoration: none;
+	background-color: #000;
+
 }
 
 #main-navbar ul li a:hover {
