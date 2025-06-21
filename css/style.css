@@ -1,12 +1,10 @@
-body {
-	margin: 0;
-	padding: 0;
+#main-navbar {
 	background-color: #F0DFE6;
+	overflow:hidden;
 }
 
-#main-navbar {
-	background-color: #A1B5FF;
-	overflow: hidden;
+#navbar-container {
+	float: left;
 	width: 100%;
 	position: relative;
 }
@@ -15,11 +13,16 @@ body {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	text-align: center;
+	position: relative;
+  left: 50%;
+  float: left;
 }
 
 #main-navbar ul li {
 	display: inline-block;
+	float: left;
+  position: relative;
+  right: 50%;
 }
 
 #main-navbar ul li a {
