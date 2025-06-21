@@ -1,11 +1,11 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: skyblue;
+	background-color: #F0DFE6;
 }
 
 nav {
-	background-color: blue;
+	background-color: #A1B5FF;
 	overflow: hidden;
 	width: 100%;
 	position: relative;
@@ -30,7 +30,15 @@ nav ul li a {
 	background-color: #000;
 }
 
-aside {
+nav ul li a:hover {
+	background-color: #BF82BF;
+}
+
+#onpage {
+	text-decoration:underline;
+}
+
+#sidebar {
 	position: fixed;
 	right: 0%;
 	top: 0;
@@ -39,18 +47,20 @@ aside {
 	width: 20%;
 }
 
-aside ul {
+#sidebar ul {
 	list-style-type: none;
 	padding: 0;
 	margin:0;
 	text-align: center;
 }
 
-aside ul li a{
+#sidebar ul li a{
 	display:block;
 	padding: 15px 0;
 	color: #fff;
 	text-decoration: none;
 }
 	
-	
+	#sidebar ul li a:hover {
+		background-color: #BF82BF;
+}
