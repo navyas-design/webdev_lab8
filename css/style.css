@@ -20,6 +20,9 @@ body {
 
 #main-navbar ul li {
 	display: inline-block;
+	float: left;
+	position: relative;
+	right: 50%;
 }
 
 #main-navbar ul li a {
@@ -27,7 +30,6 @@ body {
 	padding: 10px 20px;
 	color: #fff;
 	text-decoration: none;
-	background-color: #000;
 }
 
 #main-navbar ul li a:hover {
@@ -41,7 +43,6 @@ body {
 #sidebar {
 	position: fixed;
 	right: 0%;
-	top: 0;
 	background-color: red;
 	height: 100%;
 	width: 20%;
@@ -50,7 +51,6 @@ body {
 #sidebar ul {
 	list-style-type: none;
 	padding: 0;
-	margin:0;
 	text-align: center;
 }
 
